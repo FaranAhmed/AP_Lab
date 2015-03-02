@@ -1,0 +1,102 @@
+﻿Build started 02-Mar-15 5:11:05 PM.
+     1>Project "c:\Users\hp\documents\visual studio 2012\Projects\Lab2AP\Lab2AP\Lab2AP.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(9741): error C2977: 'std::tuple' : too many template arguments
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\utility(73) : see declaration of 'std::tuple'
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(9749): error C2977: 'std::tuple' : too many template arguments
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\utility(73) : see declaration of 'std::tuple'
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(14954): error C2977: 'std::tuple' : too many template arguments
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\utility(73) : see declaration of 'std::tuple'
+                 c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(15186) : see reference to class template instantiation 'testing::internal::CartesianProductGenerator9<T1,T2,T3,T4,T5,T6,T7,T8,T9>' being compiled
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(14954): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(14954): error C2955: 'std::tuple' : use of class template requires template argument list
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\utility(73) : see declaration of 'std::tuple'
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(14954): error C2955: 'testing::internal::ParamGeneratorInterface' : use of class template requires template argument list
+                 c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(10141) : see declaration of 'testing::internal::ParamGeneratorInterface'
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(14956): error C2977: 'std::tuple' : too many template arguments
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\utility(73) : see declaration of 'std::tuple'
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(14967): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(14967): error C2955: 'std::tuple' : use of class template requires template argument list
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\utility(73) : see declaration of 'std::tuple'
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(14972): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(14972): error C2955: 'std::tuple' : use of class template requires template argument list
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\utility(73) : see declaration of 'std::tuple'
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(14979): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+                 c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(14979) : see reference to class template instantiation 'testing::internal::CartesianProductGenerator9<T1,T2,T3,T4,T5,T6,T7,T8,T9>::Iterator' being compiled
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(14979): error C2955: 'std::tuple' : use of class template requires template argument list
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\utility(73) : see declaration of 'std::tuple'
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(14979): error C2955: 'testing::internal::ParamIteratorInterface' : use of class template requires template argument list
+                 c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(10068) : see declaration of 'testing::internal::ParamIteratorInterface'
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(14981): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(14981): error C2955: 'std::tuple' : use of class template requires template argument list
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\utility(73) : see declaration of 'std::tuple'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\utility(73) : see declaration of 'std::tuple'
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(15014): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(15014): error C2955: 'std::tuple' : use of class template requires template argument list
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\utility(73) : see declaration of 'std::tuple'
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(15056): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(15056): error C2955: 'std::tuple' : use of class template requires template argument list
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\utility(73) : see declaration of 'std::tuple'
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(15060): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(15060): error C2955: 'std::tuple' : use of class template requires template argument list
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\utility(73) : see declaration of 'std::tuple'
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(15141): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(15141): error C2955: 'std::tuple' : use of class template requires template argument list
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\utility(73) : see declaration of 'std::tuple'
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(15193): error C2977: 'std::tuple' : too many template arguments
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\utility(73) : see declaration of 'std::tuple'
+                 c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(15442) : see reference to class template instantiation 'testing::internal::CartesianProductGenerator10<T1,T2,T3,T4,T5,T6,T7,T8,T9,T10>' being compiled
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(15193): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(15193): error C2955: 'std::tuple' : use of class template requires template argument list
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\utility(73) : see declaration of 'std::tuple'
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(15193): error C2955: 'testing::internal::ParamGeneratorInterface' : use of class template requires template argument list
+                 c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(10141) : see declaration of 'testing::internal::ParamGeneratorInterface'
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(15195): error C2977: 'std::tuple' : too many template arguments
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\utility(73) : see declaration of 'std::tuple'
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(15207): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(15207): error C2955: 'std::tuple' : use of class template requires template argument list
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\utility(73) : see declaration of 'std::tuple'
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(15212): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(15212): error C2955: 'std::tuple' : use of class template requires template argument list
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\utility(73) : see declaration of 'std::tuple'
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(15219): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+                 c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(15219) : see reference to class template instantiation 'testing::internal::CartesianProductGenerator10<T1,T2,T3,T4,T5,T6,T7,T8,T9,T10>::Iterator' being compiled
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(15219): error C2955: 'std::tuple' : use of class template requires template argument list
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\utility(73) : see declaration of 'std::tuple'
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(15219): error C2955: 'testing::internal::ParamIteratorInterface' : use of class template requires template argument list
+                 c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(10068) : see declaration of 'testing::internal::ParamIteratorInterface'
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(15221): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(15221): error C2955: 'std::tuple' : use of class template requires template argument list
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\utility(73) : see declaration of 'std::tuple'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\utility(73) : see declaration of 'std::tuple'
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(15257): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(15257): error C2955: 'std::tuple' : use of class template requires template argument list
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\utility(73) : see declaration of 'std::tuple'
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(15303): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(15303): error C2955: 'std::tuple' : use of class template requires template argument list
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\utility(73) : see declaration of 'std::tuple'
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(15307): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(15307): error C2955: 'std::tuple' : use of class template requires template argument list
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\utility(73) : see declaration of 'std::tuple'
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(15393): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(15393): error C2955: 'std::tuple' : use of class template requires template argument list
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\utility(73) : see declaration of 'std::tuple'
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(15675): error C2977: 'std::tuple' : too many template arguments
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\utility(73) : see declaration of 'std::tuple'
+                 c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(15703) : see reference to class template instantiation 'testing::internal::CartesianProductHolder9<Generator1,Generator2,Generator3,Generator4,Generator5,Generator6,Generator7,Generator8,Generator9>' being compiled
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(15675): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(15675): error C2955: 'std::tuple' : use of class template requires template argument list
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\utility(73) : see declaration of 'std::tuple'
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(15719): error C2977: 'std::tuple' : too many template arguments
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\utility(73) : see declaration of 'std::tuple'
+                 c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(15750) : see reference to class template instantiation 'testing::internal::CartesianProductHolder10<Generator1,Generator2,Generator3,Generator4,Generator5,Generator6,Generator7,Generator8,Generator9,Generator10>' being compiled
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(15719): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>c:\users\hp\documents\visual studio 2012\projects\lab2ap\gtest-1.7.0\fused-src\gtest\gtest.h(15719): error C2955: 'std::tuple' : use of class template requires template argument list
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\utility(73) : see declaration of 'std::tuple'
+     1>Done Building Project "c:\Users\hp\documents\visual studio 2012\Projects\Lab2AP\Lab2AP\Lab2AP.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.94
