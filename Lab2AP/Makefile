@@ -84,4 +84,4 @@ mycode_unittest : mycode.o mycode_unittest.o gtest_main.a
 	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -lpthread $^ -o $@
 
 mycode_main:
-	g++ Header.cpp main.cpp -o add_main
+	g++ mycode.cpp main.cpp -o add_main

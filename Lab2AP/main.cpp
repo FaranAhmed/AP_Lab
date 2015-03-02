@@ -1,5 +1,4 @@
-#include "Header.h"
-//#include "../gtest-1.7.0\fused-src\gtest\gtest.h"
+#include "mycode.h"
 
 #define SIZE 3
 
@@ -20,19 +19,19 @@ int main()
 
 	for (int i = 0; i<SIZE; i++){		
 		for (int j = 0; j<SIZE; j++){
-			a[i][j] = rand() % 10;
+			a[i][j] = i;
 		}
 	}
 
 	for (int i = 0; i<SIZE; i++){		
 		for (int j = 0; j<SIZE; j++){
-			b[i][j] = rand() % 10;
+			b[i][j] = j;
 		}
 	}
 
 	for (int i = 0; i<SIZE; i++){		
 		for (int j = 0; j<SIZE; j++){
-			c[i][j] = rand() % 10;
+			c[i][j] = i+j;
 		}
 	}
 
