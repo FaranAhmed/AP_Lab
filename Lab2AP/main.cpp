@@ -1,5 +1,5 @@
 #include "Header.h"
-#include "../gtest-1.7.0\fused-src\gtest\gtest.h"
+//#include "../gtest-1.7.0\fused-src\gtest\gtest.h"
 
 #define SIZE 3
 
@@ -39,7 +39,8 @@ int main()
 	m1.addMatrix(a, b, c);
 	m1.mulMatrix(a, b, c);
 	m1.mulAddMatrix(a, b, c);
-
-	getchar();
+	
+	int i;
+	cin >> i;
 	return 0;
 }
